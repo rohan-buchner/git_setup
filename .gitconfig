@@ -2,6 +2,10 @@
 	name = rohan-buchner
 	email = rohan.buchner@gmail.com
 
+# emploer specific git configs
+[includeIf "gitdir:Sources/EMPLOYER_SOURCE/"]
+    path = /Users/rohbue/Sources/EMPLOYER_SOURCE/.gitconfig
+
 [alias]
 	# short aliases
 	st = status 
